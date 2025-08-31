@@ -1,0 +1,12 @@
+# Staging environment configuration
+
+# Override for staging
+browser:
+  headless: true
+
+environments:
+  staging:
+    base_url: "https://staging.example.com"
+
+test_settings:
+  timeout: 45000  # Longer timeout for staging

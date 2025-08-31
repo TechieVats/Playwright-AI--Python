@@ -1,0 +1,31 @@
+# Simple configuration for the test framework
+
+# Browser settings
+browser:
+  name: "chromium"  # chromium, firefox, webkit
+  headless: true
+  viewport:
+    width: 1920
+    height: 1080
+
+# Environment URLs
+environments:
+  local:
+    base_url: "http://localhost:3000"
+  
+  staging:
+    base_url: "https://staging.example.com"
+  
+  production:
+    base_url: "https://production.example.com"
+
+# Test settings
+test_settings:
+  timeout: 30000  # milliseconds
+  screenshot_on_failure: true
+  
+# Reporting
+reporting:
+  output_dir: "reports"
+  html_report: true
+  screenshots: true

@@ -1,0 +1,13 @@
+# Core Testing Framework
+playwright==1.40.0
+pytest==7.4.3
+pytest-html==4.1.1
+pytest-asyncio==0.21.1
+
+# Utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Development Tools
+black==23.9.1
+flake8==6.1.0
